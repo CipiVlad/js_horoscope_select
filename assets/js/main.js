@@ -9,43 +9,43 @@
 
 function show() {
     let month = document.getElementById("horoskops").value;
-
+    let horoskop = document.getElementById("horoskop-pic");
     switch (month) {
         case "Jan":
-            document.getElementById("horoskop-pic").innerHTML = "Have you been feeling a bit bored with your life lately? Well, good news! Today offers you a great.";
+            horoskop.innerHTML = "<p>Today your patience might be tested when one or more of your projects gets put on hold by someone…</p><img src='https://www.horoscopedates.com/img/icon_aquarius.png' alt='aquarius'>";
             break;
         case "Feb":
-            document.getElementById("horoskop-pic").innerHTML = "Communication is very important today—written, spoken, and even nonverbal body language will all…";
+            horoskop.innerHTML = "<p>Communication is very important today—written, spoken, and even nonverbal body language will all…</p><img src='https://www.horoscopedates.com/img/icon_pisces.png' alt='pisces'>";
             break;
         case "Mar":
-            document.getElementById("horoskop-pic").innerHTML = "Today your patience might be tested when one or more of your projects gets put on hold by someone…";
+            document.getElementById("horoskop-pic").innerHTML = "<p>Today your patience might be tested when one or more of your projects gets put on hold by someone…</p><img src='https://www.horoscopedates.com/img/icon_aries.png' alt='aries'>";
             break;
         case "Apr":
-            document.getElementById("horoskop-pic").innerHTML = "Your intense energy makes you a great candidate for a leadership position right now, so if you are…";
+            document.getElementById("horoskop-pic").innerHTML = "<p>Your intense energy makes you a great candidate for a leadership position right now, so if you are…</p><img src='https://www.horoscopedates.com/img/icon_taurus.png' alt='taurus'>";
             break;
         case "May":
-            document.getElementById("horoskop-pic").innerHTML = "If you aren't sure if you are ready to commit to a party, a date, a new job, or anything else that…";
+            document.getElementById("horoskop-pic").innerHTML = "<p>If you aren't sure if you are ready to commit to a party, a date, a new job, or anything else that…</p><img src='https://www.horoscopedates.com/img/icon_gemini.png' alt='gemini'>";
             break;
         case "Jun":
-            document.getElementById("horoskop-pic").innerHTML = "Too many different elements in your life are overlapping with each other right now—and it's your…";
+            document.getElementById("horoskop-pic").innerHTML = "<p>Too many different elements in your life are overlapping with each other right now—and it's your…</p><img src='https://www.horoscopedates.com/img/icon_cancer.png' alt='cancer'>";
             break;
         case "Jul":
-            document.getElementById("horoskop-pic").innerHTML = "The issues you'll be dealing with today are very complicated ones—you will have to navigate your…";
+            document.getElementById("horoskop-pic").innerHTML = "<p>The issues you'll be dealing with today are very complicated ones—you will have to navigate your…</p><img src='https://www.horoscopedates.com/img/icon_leo.png' alt='leo'>";
             break;
         case "Aug":
-            document.getElementById("horoskop-pic").innerHTML = "You'll get along best with people who appeal to your more analytical side, today. Surprisingly, all…";
+            document.getElementById("horoskop-pic").innerHTML = "<p>You'll get along best with people who appeal to your more analytical side, today. Surprisingly, all…</p><img src='https://www.horoscopedates.com/img/icon_virgo.png' alt='virgo'>";
             break;
         case "Sep":
-            document.getElementById("horoskop-pic").innerHTML = "Pick a cultural event that's coming up and get some tickets for it today.";
+            document.getElementById("horoskop-pic").innerHTML = "<p>Pick a cultural event that's coming up and get some tickets for it today.</p><img src='https://www.horoscopedates.com/img/icon_libra.png' alt='libra'>";
             break;
         case "Oct":
-            document.getElementById("horoskop-pic").innerHTML = "Someone will challenge a belief that you've held for a very long time today—and they will say an…";
+            document.getElementById("horoskop-pic").innerHTML = "<p>Someone will challenge a belief that you've held for a very long time today—and they will say an…</p><img src='https://www.horoscopedates.com/img/icon_scorpio.png' alt='scorpio'>";
             break;
         case "Nov":
-            document.getElementById("horoskop-pic").innerHTML = "Someone in your life needs to step up and take on more responsibility—and you need to tell them to....";
+            document.getElementById("horoskop-pic").innerHTML = "<p>Someone in your life needs to step up and take on more responsibility—and you need to tell them to....</p><img src='https://www.horoscopedates.com/img/icon_sagittarius.png' alt='sagittarius'>";
             break;
         case "Dec":
-            document.getElementById("horoskop-pic").innerHTML = "Breaking the rules is not always a bad thing—especially if the rules limit your creativity.";
+            document.getElementById("horoskop-pic").innerHTML = "<p>Breaking the rules is not always a bad thing—especially if the rules limit your creativity.</p><img src='https://www.horoscopedates.com/img/icon_capricorn.png' alt='capricorn'>";
             break;
     }
     console.log(month);
